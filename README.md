@@ -45,7 +45,6 @@ the official documentation, and you want to find the corresponding MQL API for
 the C API, use this table. This table also has comments about why a particular
 API is not included in this binding.
 
-```html
 <div id="mql-sqlite3-api_13471" align=center x:publishsource="Excel">
 
 <table border=0 cellpadding=0 cellspacing=0 width=1003 style='border-collapse:
@@ -3978,7 +3977,6 @@ API is not included in this binding.
 </table>
 
 </div>
-```
 
 ## About string encoding and API choices
 
