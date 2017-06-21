@@ -46,7 +46,7 @@ the C API, use this table. This table also has comments about why a particular
 API is not included in this binding.
 
 <table border=0 cellpadding=0 cellspacing=0>
- <th height=23 style='height:17.5pt'>
+ <th>
   <td>SQLite3 C API</td>
   <td>mql-sqlite3</td>
   <td>Comment</td>
