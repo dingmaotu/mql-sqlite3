@@ -43,7 +43,7 @@ This binding contains three sets of files:
 Below is a detailed comparison table of MQL and C/C++ APIs. If you are reading
 the official documentation, and you want to find the corresponding MQL API for
 the C API, use this table. This table also has comments about why a particular
-API is not included in this binding.
+API is not included in this binding. This table might change if new APIs get added.
 
 <table border=0 cellpadding=0 cellspacing=0>
  <thead>
@@ -206,7 +206,7 @@ API is not included in this binding.
  </tr>
  <tr>
   <td>sqlite3_busy_timeout</td>
-  <td>SQLite3::setBuyTimeout</td>
+  <td>SQLite3::setBusyTimeout</td>
   <td>　</td>
  </tr>
  <tr>
@@ -1284,9 +1284,6 @@ level usage.
 
 APIs like `sqlite3_exec`, `sqlite3_get_table`, etc. are convenience wrappers,
 which are not included. Maybe I will implement them in MQL.
-
-For a complete comparison table of C/C++ APIs and MQL APIs
-see [mql-sqlite3-api.html](mql-sqlite3-api.html).
 
 ## Usage
 
