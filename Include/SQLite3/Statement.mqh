@@ -64,7 +64,6 @@ public:
       uchar u8name[];
       StringToUtf8(name,u8name);
       return sqlite3_bind_parameter_index(m_ref,u8name);
-      ArrayFree(u8name);
      }
 
    int               bind(int i,const uchar &value[],bool copy=true)
