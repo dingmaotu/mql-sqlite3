@@ -46,11 +46,14 @@ the C API, use this table. This table also has comments about why a particular
 API is not included in this binding.
 
 <table border=0 cellpadding=0 cellspacing=0>
- <th>
-  <td>SQLite3 C API</td>
-  <td>mql-sqlite3</td>
-  <td>Comment</td>
- </th>
+ <thead>
+  <tr>
+   <th>SQLite3 C API</th>
+   <th>mql-sqlite3</th>
+   <th>Comment</th>
+  </tr>
+ </thead>
+ <tbody>
  <tr>
   <td>sqlite3_aggregate_context</td>
   <td>N/A</td>
@@ -1260,6 +1263,7 @@ API is not included in this binding.
   <td>N/A</td>
   <td>need callback</td>
  </tr>
+ </tbody>
 </table>
 
 ## About string encoding and API choices
