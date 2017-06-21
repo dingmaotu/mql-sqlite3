@@ -23,7 +23,11 @@ void OnStart()
    Print(SQLite3::getSourceId(), " = ", SQLITE_SOURCE_ID);
 
 //--- create an empty db
+#ifdef __MQL5__
+   string filesPath=TerminalInfoString(TERMINAL_DATA_PATH)+"\\MQL5\\Files";
+#else
    string filesPath=TerminalInfoString(TERMINAL_DATA_PATH)+"\\MQL4\\Files";
+#endif
    string dbPath=filesPath+"\\test.db";
    Print(dbPath);
 
